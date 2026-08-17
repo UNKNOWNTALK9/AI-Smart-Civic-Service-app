@@ -1,0 +1,192 @@
+{
+  "dataset": {
+    "original": 460,
+    "missing_removed": 0,
+    "duplicates_removed": 308,
+    "final": 152
+  },
+  "classification_models": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "report": "              precision    recall  f1-score   support\n\n    Drainage       1.00      1.00      1.00         5\n Electricity       1.00      1.00      1.00         7\n       Other       1.00      1.00      1.00         1\n        Road       1.00      1.00      1.00         7\n Streetlight       1.00      1.00      1.00         3\n       Waste       1.00      1.00      1.00         4\n       Water       1.00      1.00      1.00         4\n\n    accuracy                           1.00        31\n   macro avg       1.00      1.00      1.00        31\nweighted avg       1.00      1.00      1.00        31\n"
+    },
+    "Naive Bayes": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "report": "              precision    recall  f1-score   support\n\n    Drainage       1.00      1.00      1.00         5\n Electricity       1.00      1.00      1.00         7\n       Other       1.00      1.00      1.00         1\n        Road       1.00      1.00      1.00         7\n Streetlight       1.00      1.00      1.00         3\n       Waste       1.00      1.00      1.00         4\n       Water       1.00      1.00      1.00         4\n\n    accuracy                           1.00        31\n   macro avg       1.00      1.00      1.00        31\nweighted avg       1.00      1.00      1.00        31\n"
+    }
+  },
+  "best_model": "Logistic Regression",
+  "classification_test_samples": 31,
+  "priority_test_samples": 31,
+  "priority_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8
+      ]
+    ],
+    "report": "              precision    recall  f1-score   support\n\n    Critical       1.00      1.00      1.00         8\n        High       1.00      1.00      1.00         8\n         Low       1.00      1.00      1.00         7\n      Medium       1.00      1.00      1.00         8\n\n    accuracy                           1.00        31\n   macro avg       1.00      1.00      1.00        31\nweighted avg       1.00      1.00      1.00        31\n"
+  },
+  "training_date": "2026-08-08T21:13:33.663231",
+  "feature_count": 279
+}
